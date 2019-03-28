@@ -119,7 +119,7 @@
 				<li><a href="about.html">About us</a></li>
 				<li><a href="services.html">Classes & Services</a></li>
 				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
 		<div class="menu_phone d-flex flex-row align-items-center justify-content-start">

@@ -83,6 +83,7 @@
 				<li><a href="events.php">News</a></li>
 				<li><a href="partnerships.php">Partnerships</a></li>
 				<li><a href="#">Developers</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
 			</ul>
 			
 		<!--foote_bottom_ul_amrc ends here-->

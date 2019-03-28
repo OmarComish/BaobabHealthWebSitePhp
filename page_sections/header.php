@@ -24,9 +24,11 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/snarl.css">
+    <link rel="stylesheet" type="text/css" href="styles/news.css">
 <link rel="stylesheet" href="styles/gallery.css" type="text/css">
 <link rel="stylesheet" href="styles/footer.css", type="text/css">
 <link rel="stylesheet" href="styles/aboutus.css" type="text/css">
+    <link rel="stylesheet" href="styles/contactus.css" type="text/css">
 <link rel="stylesheet" href="styles/productsandservices.css" type="text/css">
 <link rel="stylesheet" href="styles/animate.min.css" type="text/css">
 <link rel="stylesheet" href="styles/resources.css" type="text/css">
@@ -58,7 +60,8 @@
 										  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 										    <a class="dropdown-item" href="ourmission.php">Our Mission</a>
 											<a class="dropdown-item" href="boardofdirectors.php">Board & Team</a>
-											<a class="dropdown-item" href="#">Donors & Partners</a>
+											<a class="dropdown-item" href="#">Donors</a>
+                                              <a class="dropdown-item" href="#"> Partnerships</a>
 											<a class="dropdown-item" href="ourpeople.php">Our People</a>
 											<a class="dropdown-item" href="wherewework.php">Where we work</a>
                                          </div>
@@ -90,7 +93,7 @@
 									<a class="dropdown-item" href="events.php">Events</a>
                                     </div>
 								</li>
-								<li><a href="#">Partnerships</a></li>
+								<li><a href="contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 						<div class="phone d-flex flex-row align-items-center justify-content-start ml-auto">
