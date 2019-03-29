@@ -73,6 +73,26 @@ class Pages {
             return $update_status;
 
         }
+
+        public function gallery_photos(){
+
+		    global $pdo;
+		    //$photos = Array();
+
+		    $query = $pdo->prepare("SELECT id,detail FROM contents WHERE content_type_id = (SELECT id FROM content_types WHERE content_type = 'IMAGE')
+		                           AND content_category_id = (SELECT id FROM content_categories WHERE category_name='resources_gallery_photo')");
+		    $query->execute();
+
+            return $query->fetchAll(PDO::FETCH_ASSOC);
+
+		    /*return $photos = $query->fetchAll(PDO::FETCH_ASSOC);
+		    while($row = $query->fetch(\PDO::FETCH_ASSOC)){
+                 $photos[$row['id']] = $row['detail'];
+            }
+
+            return $photos; */
+
+        }
 }
 
 class Sites {

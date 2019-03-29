@@ -47,7 +47,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
-						<a href="#">
+						<a href="index.php">
 							<div class="logo d-flex flex-row align-items-center justify-content-start"><img src="images/baobabhealth-5.png" alt=""><div><span></span></div></div>
 							<!--<div class="logo d-flex flex-row align-items-center justify-content-start"><img src="images/dot.png" alt=""><div>Sport<span>fit</span></div></div>-->
 						</a>
