@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2556e02a-b3cf-4caa-b705-7cd353322f6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dataAccessLayer.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataAccessLayer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/a1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/a2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/anc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_page.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/Baldwin Chiyamwaka.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/Dr Chipo Kanjo.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/Dr-Peter-Kazembe.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/DrWesleySangala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/MIGOCHI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/Mcluwen David Kachipanda.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boardmemberspicsbios/ Mrs. Martha Chizuma-Mwangonde.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_sections/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_sections/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/gallery.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="1138">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -219,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553757315374</updated>
-      <workItem from="1553757316677" duration="21840000" />
+      <workItem from="1553757316677" duration="22493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21840000" />
+    <option name="totallyTimeSpent" value="22493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="3840" height="2125" extended-state="6" />
@@ -311,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="1138">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
