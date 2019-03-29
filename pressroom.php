@@ -59,7 +59,7 @@
 
                                 <div class="single-blog">
                                     <div class="blog-img">
-                                        <img src="http://infinityflamesoft.com/html/abal-preview/assets/img/blog/blog1.jpg" alt="">
+                                        <img src="images/news-blog-img2.jpg" alt="">
                                         <div class="post-category">
                                             <a href="#">Featured</a>
                                         </div>
@@ -84,7 +84,7 @@
 
                                 <div class="single-blog">
                                     <div class="blog-img">
-                                        <img src="http://infinityflamesoft.com/html/abal-preview/assets/img/blog/blog3.jpg" alt="">
+                                        <img src="images/news_blog3_img.jpg" alt="">
                                         <div class="post-category">
                                             <a href="#">Featured</a>
                                         </div>
@@ -115,7 +115,7 @@
                                 <h3 class="pb-4 mb-4 font-italic border-bottom">
                                     From the Firehose
                                 </h3>
-
+                                <!--
                                 <div class="blog-post">
                                     <h2 class="blog-post-title">Sample blog post</h2>
                                     <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
@@ -148,7 +148,7 @@
                                     </ol>
                                     <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
                                 </div><!-- /.blog-post -->
-
+                                <!--
                                 <div class="blog-post">
                                     <h2 class="blog-post-title">Another blog post</h2>
                                     <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
@@ -160,7 +160,7 @@
                                     <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                                     <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
                                 </div><!-- /.blog-post -->
-
+                                <!--
                                 <div class="blog-post">
                                     <h2 class="blog-post-title">New feature</h2>
                                     <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
@@ -173,7 +173,7 @@
                                     </ul>
                                     <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                                     <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                                </div><!-- /.blog-post -->
+                                </div>  /.blog-post -->
 
                                 <nav class="blog-pagination">
                                     <a class="btn btn-outline-primary" href="#">Older</a>
@@ -186,7 +186,7 @@
                             <aside class="col-md-4 blog-sidebar">
                                 <div class="p-4 mb-3 bg-light rounded">
                                     <h4 class="font-italic">About</h4>
-                                    <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                                    <p class="mb-0">Baobab health <em>Press Room</em><!-- mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p> -->
                                 </div>
 
                                 <div class="p-4">
