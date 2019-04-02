@@ -132,7 +132,7 @@
 
 			Snarl.addNotification({
 			title: 'Scale-up Update Statistics',
-			text: 'Deployments: 30 of 200 sites. Data Migration: 40 of 200 sites. ANC updates 7 of 200 sites. Average points 3.35',
+			text: 'Deployments: 30 of 200 sites. Data Migration: 40 of 200 sites. ANC updates 7 of 200 sites.',
 			icon: '<i class="fa fa-clock-o"></i>',
 			timeout: 14000
 		});
