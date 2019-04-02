@@ -39,7 +39,7 @@
                     <!-- Box -->
                     <div class="box" style="background: rgb(160,82,45);">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/id-card.png" alt=""></div>
-                        <div class="box_title">300000000</div>
+                        <div class="box_title">300000000</div class="box_title" >
                         <div class="box_text">
                             <p>Unique Patient ID's Issued.</p>
                         </div>
@@ -380,7 +380,7 @@
 							<!-- <div class="section_title">Latest News</div>-->
 							<h1><span style="color: #ffffff;">Latest News</span></h1>
 						</div>
-						<div class="all_posts_link ml-auto"><a href="#">View all blog posts</a></div>
+						<div class="all_posts_link ml-auto"><a href="#=latestnews.php">View all blog posts</a></div>
 					</div>
 				</div>
 			</div>
@@ -389,37 +389,44 @@
 				<!-- Blog Post -->
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
-						<div class="blog_post_image"><img src="images/baobab_blog.png" alt=""></div>
-						<div class="blog_post_title"><a href="#">Heading</a></div>
-						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_image"><img src="images/news/latest_news1-min.jpg" alt=""></div>
+						<div class="blog_post_title"><a href="#">EMR scale up on course</a></div>
+						<div class="blog_post_date"><a href="#">March 29, 2019</a></div>
 						<div class="blog_post_text">
-							<p>News detail goes here.</p>
+							<p>Baobab Health Trust (BHT) with a mandate from the Ministry of Health and Population is
+                                scaling up the implementation of Electronic Medical Record Systems (EMRS) in health facilities across Malawi</p>
 	 					</div>
-						<div class="blog_post_link"><a href="#">Read More</a></div>
+						<div class="blog_post_link"><a href="latestnews.php">Read More</a></div>
 					</div>
 				</div>
 
 				<!-- Blog Post -->
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
-						<div class="blog_post_image"><img src="images/baobab_blog2.jpg" alt=""></div>
-						<div class="blog_post_title"><a href="#">Heading</a></div>
-						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_image"><img src="images/news/latest_news3-min.jpg" alt=""></div>
+						<div class="blog_post_title"><a href="#">Improving Data Quality - Why it matters most</a></div>
+						<div class="blog_post_date"><a href="#">March 30, 2019</a></div>
 						<div class="blog_post_text">
-							<p>New details goes here...</p>
+							<p>Data Specialist At first glance, the data looked great. Only to realise 5 seconds later that most
+                                indicators I was interested in are missing, and some are not accurate.
+                                A question immediately comes, “is this data reliable?”
+                                Nobody likes unpleasant surprises! And nobody is happy sharing inaccurate reports</p>
 						</div>
-						<div class="blog_post_link"><a href="#">Read More</a></div>
+						<div class="blog_post_link"><a href="latestnews.php">Read More</a></div>
 					</div>
 				</div>
 
 				<!-- Blog Post -->
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
-						<div class="blog_post_image"><img src="images/baobab_blog3.jpg" alt=""></div>
-						<div class="blog_post_title"><a href="#">Video: Heading</a></div>
+						<div class="blog_post_image"><img src="images/news/latest_news4-min.jpg" alt=""></div>
+						<div class="blog_post_title"><a href="#">BHT Rolls out Electronic Stock Management System</a></div>
 						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
 						<div class="blog_post_text">
-							<p>News detail goes here...</p>
+							<p>Stock management remains one of the fundamental assignments for any successful organization.
+                                Such is the case because every organisation would want to see the purchased equipment or goods being put to
+                                proper use and generate the desired returns
+                                for the growth of the organisation. However most organisations find this task to be “alot of work.</p>
 						</div>
 						<div class="blog_post_link"><a href="#">Read More</a></div>
 					</div>
