@@ -143,6 +143,7 @@
 	}
 
 	function initPageContent(){
+
 		$('.box_title').each(function () {
 			$(this).prop('Counter',0).animate({
 				Counter: $(this).text()
@@ -155,15 +156,31 @@
 			});
 		});
 	}
-	
+
+	function animateCounters(el){
+
+        var start = null;
+        var element = document.getElementById(el);
+
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            element.style.transform = 'translateX(' + Math.min(progress / 10, 200) + 'px)';
+            if (progress < 2000) {
+                window.requestAnimationFrame(step);
+            }
+        }
+
+        window.requestAnimationFrame(step);
+    }
 
     $(document).ready(function(){
-		initPageContent();
-		displayNotification();
-		//dismissNotification();
-		//var intval = setTimeout(dismissNotification(), 20000);
 
-		//intval;
+		//initPageContent();
+         animateCounters('firstcounter');
+		displayNotification();
+
+
 		$('#blogCarousel').carousel({
 				interval: 5000
 		});
