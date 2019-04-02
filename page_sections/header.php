@@ -89,6 +89,7 @@
 									<a class="nav-link dropdown-toggle" href="#"
 									id="navbarNews" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdownMe">
+                                        <a class="dropdown-item" href="#">Latest News</a>
 									<a class="dropdown-item" href="pressroom.php">Press Room</a>
 									<a class="dropdown-item" href="events.php">Events</a>
                                     </div>

@@ -19,7 +19,7 @@
                             </a> -->
                         </div>
                        <div class="home_title">Towards Paperless Health Records</div>
-		       <div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
+		       <div class="home_subtitle"></div>
 		       <div class="button home_button ml-auto mr-auto"><a href="#">Read More...</a></div>
                     </div>
                 </div>
@@ -460,7 +460,7 @@
 		<!----------------------- MAP IMAGE ----------------------------->
 		<div>
 
-	       
+
 	   </div>
 		   <!---         MAP IMAGE END -----------------------> 
         </div>
