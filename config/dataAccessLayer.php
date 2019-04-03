@@ -107,4 +107,25 @@ class Sites {
     }
 }
 
+class UserQueries {
+
+     public function post_query($name,$email,$telephone,$subject,$message){
+         global $pdo;
+
+         $query = $pdo->prepare("INSERT into queries (name,email,message,telephone,subject) VALUES(?,?,?,?,?)");
+         $query->bindValue(1,$name);
+         $query->bindValue(2,$email);
+         $query->bindValue(3,$message);
+         $query->bindValue(4,$telephone);
+         $query->bindValue(5,$message);
+
+         $query->execute();
+         $bool_status = $query->execute();
+
+
+         $update_status = ($bool_status? "success" : "error");
+         return $update_status;
+     }
+}
+
 ?>

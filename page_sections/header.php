@@ -36,8 +36,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
-<!-- Notification --->
-     
+<div class="notification-ts" id="notify-section">
 <div class="super_container">
      <!-- <div id ="notification">Unless the seed does'nt fall into the ground and die, it abides alone.</div> -->
 	<!-- Header -->

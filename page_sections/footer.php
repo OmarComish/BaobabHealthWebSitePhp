@@ -178,7 +178,7 @@
 
 		//initPageContent();
          animateCounters('firstcounter');
-		displayNotification();
+		//displayNotification();
 
 
 		$('#blogCarousel').carousel({

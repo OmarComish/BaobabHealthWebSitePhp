@@ -15,23 +15,23 @@
         </div>
         <div class="row text-center">
             <div class="col-md-8">
-                <form action="#" class="contact-form">
+                <form action="#" class="contact-form" id="contactform">
                     <div class="row">
                         <div class="col-xl-6">
-                            <input type="text" placeholder="name">
+                            <input type="text" placeholder="name" id="name">
                         </div>
                         <div class="col-xl-6">
-                            <input type="text" placeholder="email">
+                            <input type="text" placeholder="email" id="email">
                         </div>
                         <div class="col-xl-6">
-                            <input type="text" placeholder="subject">
+                            <input type="text" placeholder="subject" id="subject">
                         </div>
                         <div class="col-xl-6">
-                            <input type="text" placeholder="telephone">
+                            <input type="text" placeholder="telephone" id="telephone">
                         </div>
                         <div class="col-xl-12">
-                            <textarea placeholder="message" cols="30" rows="10"></textarea>
-                            <input type="submit" value="send message">
+                            <textarea placeholder="message" cols="30" rows="10" id="message"></textarea>
+                            <input type="submit" value="send message" onclick="submitRequest();">
                         </div>
                     </div>
                 </form>
@@ -60,7 +60,27 @@
 </section>
 
 
-<!-- <div class="bottom_page_spacer"></div>-->
-
+    <!-- MODAL --->
+    <div class="modal fade" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact status</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body home_subtitle_wwwk">
+                    <h3>Thank you for contacting us!</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php include_once('page_sections/footer.php') ?>
+
+
