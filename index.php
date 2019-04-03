@@ -39,7 +39,7 @@
                     <!-- Box -->
                     <div class="box" style="background: rgb(160,82,45);">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/id-card.png" alt=""></div>
-                        <div class="box_title">300000000</div class="box_title" >
+                        <div class="box_title">3000000</div class="box_title" >
                         <div class="box_text">
                             <p>Unique Patient ID's Issued.</p>
                         </div>
@@ -250,7 +250,7 @@
                                 <div class="row">                               
                                     <div class="col-md-3 eckcon">
                                         <a href="#">
-                                           <span class="mediasliderimage"><img src="images/martha-kwataine.jpg" style ="max-width:100%;" alt="")</span>
+                                           <span class="mediasliderimage"><img src="images/martha-kwataine.jpg" style ="max-width:100%;" alt=""></span>
                                             <div class="overlay-w">
 											   <div class="text">Executive Director Martha Kwataine</div>
                                             </div>
@@ -380,7 +380,7 @@
 							<!-- <div class="section_title">Latest News</div>-->
 							<h1><span style="color: #ffffff;">Latest News</span></h1>
 						</div>
-						<div class="all_posts_link ml-auto"><a href="#=latestnews.php">View all blog posts</a></div>
+						<div class="all_posts_link ml-auto"><a href="latestnews.php">View all blog posts</a></div>
 					</div>
 				</div>
 			</div>
@@ -428,7 +428,7 @@
                                 proper use and generate the desired returns
                                 for the growth of the organisation. However most organisations find this task to be “alot of work.</p>
 						</div>
-						<div class="blog_post_link"><a href="#">Read More</a></div>
+						<div class="blog_post_link"><a href="latestnews.php">Read More</a></div>
 					</div>
 				</div>
 

@@ -96,6 +96,40 @@ function initPageContent(){
     });
 }
 
+function submitRequest(){
+
+    var inputs = document.getElementById('contactform').elements;
+
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let subject = document.getElementById('subject').value;
+    let telephone = document.getElementById('telephone').value;
+    let message = document.getElementById('message').value;
+
+
+    $.ajax({
+        type: "POST",
+        url: 'config/userqueries.php',
+        data: {name: name, email: email, subject: subject, telephone: telephone, message: message},
+        success: function(data){
+
+            ModalWindow();
+        }
+    });
+
+}
+
+function ModalWindow(){
+
+    $('#notifyModal').modal('show');
+
+    $('#notifyModal').delay(3000).fadeOut(450);
+
+    setTimeout(function(){
+        $('#notifyModal').modal("hide");
+    }, 1500);
+}
+
 function partnerCarousel(){
 
     $('.customer-logos').slick({
@@ -142,8 +176,9 @@ function modalBox(id){
 }
 
 $(document).ready(function(){
-    
-    displayNotification();
+
+    if(location.href.match(/index.php/))displayNotification();
+
     initPageContent();
     partnerCarousel();
 
