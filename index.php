@@ -419,7 +419,7 @@
 				<!-- Blog Post -->
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
-						<div class="blog_post_image"><img src="images/news/latest_news4-min.jpg" alt=""></div>
+						<div class="blog_post_image"><img src="images/news/latest_news5-min.jpg" alt=""></div>
 						<div class="blog_post_title"><a href="#">BHT Rolls out Electronic Stock Management System</a></div>
 						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
 						<div class="blog_post_text">
