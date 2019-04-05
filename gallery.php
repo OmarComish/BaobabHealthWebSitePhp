@@ -5,6 +5,7 @@
   $page = new Pages();
   $gallery = $page->gallery_photos();
 
+
 ?>
 
 <!-- Home -->
@@ -45,7 +46,7 @@
 <!--- Gallery -->
 <div class="bottom_page_spacer"></div>
 <div class="container page-top">
-
+    <?php print_r($gallery); ?>
         <div class="row">
             <?php foreach($gallery as $photo) { ?>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
