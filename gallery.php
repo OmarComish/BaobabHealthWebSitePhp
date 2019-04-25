@@ -46,17 +46,17 @@
 <!--- Gallery -->
 <div class="bottom_page_spacer"></div>
 <div class="container page-top">
-    
+     
         <div class="row">
             <?php foreach($gallery as $photo) { ?>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <?php echo '<a href="http://localhost:' . $_SERVER['SERVER_PORT'] . '/images/gallery/' . $photo['detail'].'?auto=compress&cs=tinysrgb&h=650&w=940"  class="fancybox" rel="ligthbox">';?>
-                    <img  <?php echo 'src="http://localhost:' . $_SERVER['SERVER_PORT'] . '/images/gallery/' . $photo['detail'].'?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid"  alt="">'; ?>
+                <?php echo '<a href="http://' . $_SERVER['HTTP_HOST'] . '/images/gallery/' . $photo['detail'].'?auto=compress&cs=tinysrgb&h=650&w=940"  class="fancybox" rel="ligthbox">';?>
+                    <img  <?php echo 'src="http://' . $_SERVER['HTTP_HOST'] . '/images/gallery/' . $photo['detail'].'?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid"  alt="">'; ?>
                 </a>
-             </div>
+            </div>
             <?php } ?>
         </div>
 
-    </div>
+</div>
 
 <?php include_once('page_sections/footer.php') ?>
