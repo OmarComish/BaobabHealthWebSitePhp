@@ -33,6 +33,8 @@
 <link rel="stylesheet" href="styles/animate.min.css" type="text/css">
 <link rel="stylesheet" href="styles/resources.css" type="text/css">
 <link rel="stylesheet" href="styles/jquery.fancybox.min.css" type="text/css">
+    <link rel="stylesheet" href="styles/datatable-plugin/css/dataTables.semanticui.min.css" type="text/css">
+    <link rel="stylesheet" href="styles/datatable-plugin/css/semantic.min.css" type="text/css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
