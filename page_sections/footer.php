@@ -121,6 +121,9 @@
 <script src="js/bootstrap-hover-dropdown.js" type="text/javascript"></script>
 <script src="js/siteContent.js"></script>
 <script src="js/jquery.fancybox.min.js"></script>
+<script src="plugins/datatable-plugin/js/dataTables.semanticui.min.js"></script>
+<script src="plugins/datatable-plugin/js/jquery.dataTables.min.js"></script>
+<script src="plugins/datatable-plugin/js/semantic.min.js"></script>
 <script type="text/javascript">
 
 	var intervalId; 

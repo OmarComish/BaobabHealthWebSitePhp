@@ -124,6 +124,7 @@ class UserQueries {
 
 
          $update_status = ($bool_status? "success" : "error");
+
          return $update_status;
      }
 }
