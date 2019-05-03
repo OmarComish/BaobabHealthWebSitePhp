@@ -1,4 +1,16 @@
-<?php include_once('page_sections/header.php') ?>
+<?php
+
+   include_once('page_sections/header.php');
+
+   $content = new Pages();
+   $patient_ids = $content->content_detail("welcome_boxes_pid");
+   $years_of_exp = $content->content_detail("welcome_boxes_exp");
+   $modules_deployed = $content->content_detail("welcome_boxes_emodules");
+   $health_workers = $content->content_detail("welcome_boxes_hwt");
+
+
+?>
+
 
 <!-- BANNER -->
 
@@ -35,11 +47,17 @@
         <div class="row">
             <div class="col">
                 <div class="boxes_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
-                    
+
                     <!-- Box -->
                     <div class="box" style="background: rgb(160,82,45);">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/id-card.png" alt=""></div>
-                        <div class="box_title">3000000</div class="box_title" >
+                        <div class="box_title">
+                            <?php
+                               foreach($patient_ids as $content){
+                                 echo strip_tags($content['detail']);
+                               }
+                               ?>
+                        </div class="box_title" >
                         <div class="box_text">
                             <p>Unique Patient ID's Issued.</p>
                         </div>
@@ -51,7 +69,12 @@
                     <!-- Box -->
                     <div class="box">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/achievement.png" alt=""></div>
-                        <div class="box_title">16</div>
+                        <div class="box_title">
+                            <?php
+                               foreach($years_of_exp as $content){
+                                   echo strip_tags($content['detail']);
+                               }
+                            ?></div>
                         <div class="box_text">
                             <p>Years of Expereince.</p>
                         </div>
@@ -63,7 +86,11 @@
                     <!-- Box -->
                     <div class="box">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/website.png" alt=""></div>
-                        <div class="box_title">20</div>
+                        <div class="box_title"><?php
+                            foreach($modules_deployed as $content){
+                                echo strip_tags($content['detail']);
+                            }
+                            ?></div>
                         <div class="box_text">
                             <p>E-Modules Deployed.</p>
                         </div>
@@ -74,7 +101,11 @@
                     <!-- Box -->
                     <div class="box">
                         <div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="images/education.png" alt=""></div>
-                        <div class="box_title">500</div>
+                        <div class="box_title"><?php
+                            foreach($health_workers as $content){
+                                echo strip_tags($content['detail']);
+                            }
+                            ?></div>
                         <div class="box_text">
                             <p>Health Workers Trained.</p>
                         </div>
@@ -256,14 +287,14 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3 eckcon">
+                                    <!--<div class="col-md-3 eckcon">
                                         <a href="#">
                                         <span class="mediasliderimage"><img src="images/chimango-munthali.jpg" style ="max-width:100%;" alt=""></span>
                                             <div class="overlay-w">
                                                <div class="text">Director of Operations Chimango Munthali</div>
                                             </div>
                                         </a>
-                                    </div>
+                                    </div>-->
                                     <div class="col-md-3 eckcon">
                                        <a href="#">
                                           <span class="mediasliderimage"><img src="images/soyapi-mumba.jpg" style = "max-width:100%;"alt=""></span>
@@ -390,7 +421,7 @@
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
 						<div class="blog_post_image"><img src="images/news/latest_news1-min.jpg" alt=""></div>
-						<div class="blog_post_title"><a href="#">EMR scale up on course</a></div>
+						<div class="blog_post_title"><a href="latestnews.php">EMR scale up on course</a></div>
 						<div class="blog_post_date"><a href="#">March 29, 2019</a></div>
 						<div class="blog_post_text">
 							<p>Baobab Health Trust (BHT) with a mandate from the Ministry of Health and Population is
@@ -404,7 +435,7 @@
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
 						<div class="blog_post_image"><img src="images/news/latest_news3-min.jpg" alt=""></div>
-						<div class="blog_post_title"><a href="#">Improving Data Quality - Why it matters most</a></div>
+						<div class="blog_post_title"><a href="latestnews.php">Improving Data Quality - Why it matters most</a></div>
 						<div class="blog_post_date"><a href="#">March 30, 2019</a></div>
 						<div class="blog_post_text">
 							<p>Data Specialist At first glance, the data looked great. Only to realise 5 seconds later that most
@@ -420,7 +451,7 @@
 				<div class="col-lg-4 blog_col">
 					<div class="blog_post">
 						<div class="blog_post_image"><img src="images/news/latest_news5-min.jpg" alt=""></div>
-						<div class="blog_post_title"><a href="#">BHT Rolls out Electronic Stock Management System</a></div>
+						<div class="blog_post_title"><a href="latestnews.php">BHT Rolls out Electronic Stock Management System</a></div>
 						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
 						<div class="blog_post_text">
 							<p>Stock management remains one of the fundamental assignments for any successful organization.
