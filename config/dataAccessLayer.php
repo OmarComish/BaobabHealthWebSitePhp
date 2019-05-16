@@ -92,7 +92,20 @@ class Pages {
 
             return $photos; */
 
-        }
+		}
+		
+		public function news_detail($region){
+
+			global $pdo;
+
+			$query = $pdo->prepare("SELECT heading, detail, news_date, photo FROM news 
+								   WHERE content_category_id =(SELECT id FROM content_categories WHERE category_name = ?) ");
+								   
+			$query->bindValue(1, $region);
+			$query->execute();
+
+			return $query->fetch();
+		}
 }
 
 class Sites {

@@ -36,7 +36,7 @@
                                 <div class="jmtron-overlay">
                                    <h1>EMR Scale up on course</h1>
                                    <p class="lead-text">Baobab Health Trust (BHT) with a mandate from the Ministry of Health and Population is scaling up the implementation of Electronic Medical Record Systems (EMRS) in health facilities across Malawi</p>
-                                   <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+                                   <p class="lead mb-0"><a href="newsdetails.php?region=welcome_news_post_left" class="text-white font-weight-bold">Continue reading...</a></p>
                                 </div>
                             </div>
                         </div>
@@ -59,14 +59,16 @@
 
                                 <div class="single-blog">
                                     <div class="blog-img">
-                                        <img src="images/news-blog-img2.jpg" alt="">
+                                        <a href="newsdetails.php?region=welcome_news_post_center">
+                                            <img src="images/news-blog-img2.jpg" alt="">
+                                        </a>
                                         <div class="post-category">
-                                            <a href="#">Featured</a>
+                                            <a href="newsdetails.php?region=welcome_news_post_center">Featured</a>
                                         </div>
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-title">
-                                            <h4><a href="#">Improving Data Quality - Why it matters most</a></h4>
+                                            <h4><a href="newsdetails.php?region=welcome_news_post_center">Improving Data Quality - Why it matters most</a></h4>
                                             <div class="news-meta">
                                                 <ul>
                                                     <li>25 March 2019 - Mathews Malata</li>
@@ -76,7 +78,7 @@
                                         <p>By: Moses Masaiti – Data Specialist   At first glance, the data looked great.
                                             Only to realise 5 seconds later that most indicators I was interested in are missing, and some are not accurate.
                                             A question immediately comes, “is this data reliable?” Nobody likes unpleasant surprises! And nobody is happy sharing inaccurate reports,.</p>
-                                        <a href="#" class="box_btn">Read More..</a>
+                                        <a href="newsdetails.php?region=welcome_news_post_center" class="box_btn">Read More..</a>
                                     </div>
                                 </div>
                             </div>
@@ -84,14 +86,14 @@
 
                                 <div class="single-blog">
                                     <div class="blog-img">
-                                        <img src="images/news_blog3_img.jpg" alt="">
+                                        <a href="newsdetails.php?region=welcome_news_post_right"><img src="images/news_blog3_img.jpg" alt=""></a>
                                         <div class="post-category">
-                                            <a href="#">Featured</a>
+                                            <a href="newsdetails.php?region=welcome_news_post_right">Featured</a>
                                         </div>
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-title">
-                                            <h4><a href="#">BHT Rolls out Electronic Stock Management System</a></h4>
+                                            <h4><a href="newsdetails.php?region=welcome_news_post_right">BHT Rolls out Electronic Stock Management System</a></h4>
                                             <div class="news-meta">
                                                 <ul>
                                                     <li>07 February 2019</li>
@@ -101,8 +103,8 @@
                                         <p>Stock management remains one of the fundamental assignments for any successful organization.
                                             Such is the case because every organisation would want to see the purchased equipment or goods being put to proper
                                             use and generate the desired
-                                            returns for the growth of the organisation. However most organisations find this task to be “alot of work.</p>
-                                        <a href="#" class="box_btn">read more</a>
+                                            returns for the growth of the organisation. However most organisations find this task to be “alot of work </p>
+                                        <a href="newsdetails.php?region=welcome_news_post_right" class="box_btn">read more</a>
                                     </div>
                                 </div>
                             </div>

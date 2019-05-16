@@ -177,6 +177,11 @@
         window.requestAnimationFrame(step);
     }
 
+	function newsDetailPageContent(region){
+         console.log('________')
+		 location.href ="newsdetail.php?region=" + region;
+	}
+
     $(document).ready(function(){
 
 		//initPageContent();

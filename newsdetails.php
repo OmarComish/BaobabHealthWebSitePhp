@@ -1,4 +1,15 @@
-<?php include_once('page_sections/header.php') ?>
+<?php 
+
+    include_once('page_sections/header.php'); 
+    
+    if(isset($_GET['region'])){
+        $news_content = $page->news_detail($_GET['region']);
+    } else {
+        //header('Location: pressroom.php');
+        //exit();
+    }
+
+?>
 
 <!-- Banner -->
 
@@ -30,24 +41,28 @@
                        <br>
                            <div class="col-md-12">
                                 <div class="blog-img">
-                                    <img src="images/news_blog3_img.jpg" alt="">
+                                    <?php echo '<img src="images/'.trim($news_content['photo']).'" alt="" id="blog_image">'; ?>
                                 </div>
                                  <br>
                                 <div class="blog-title">
-                                    <h4><a href="#">BHT Rolls out Electronic Stock Management System</a></h4>
+                                    <h4>
+                                       <div id="news_title">
+                                             <?php echo $news_content['heading'];?>
+                                        </div>
+                                     </h4>
                                       <div class="news-meta">
                                         <ul>
-                                            <li>07 February 2019</li>
+                                            <li id="news_date">07 February 2019</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <br>
                                 <p>
-                                   Stock management remains one of the fundamental assignments for any successful organization.
-                                   Such is the case because every organisation would want to see the purchased equipment or goods being put to proper
-                                   use and generate the desired returns for the growth of the organisation. However most organisations find this task to be “alot of work"
-                                   <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-
+                                    <span id="news_detail">
+                                       <?php echo $news_content['detail'];?>
+                                       <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                                       <!--<button type="button" class="btn btn-primary"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>--> 
+                                   </span>
                                 </p>
                            </div>
                     </div>
@@ -56,6 +71,7 @@
         </div>
     </div>
 </div>
+<?php $news_content['news_date']; ?>
 <div class="bottom_page_spacer"></div>
 
 <?php include_once('page_sections/footer.php') ?>
