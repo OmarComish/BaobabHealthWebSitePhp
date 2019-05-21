@@ -102,7 +102,7 @@
         </div>
     </div>
 </div>
-
+<?php print_r ($site_list); ?>
 <!--footer starts from here-->
 <?php include_once('page_sections/footer.php') ?>
 
