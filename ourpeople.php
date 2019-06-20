@@ -168,7 +168,7 @@
                               <div class="text">
                       
                                   <h4 class="text-white mb0">Fidelis Suwedi</h4>
-                                  <p class="mb30 team-meta">- Managerr</p>
+                                  <p class="mb30 team-meta">- Manager</p>
                               </div>
                           </div>
                       </div>
@@ -208,7 +208,7 @@
                       
                                   <h4 class="text-white mb0">Chimwemwe Mputeni</h4>
                                   <p class="mb30 team-meta">- Manager</p>
-                                  <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                  <p></p>
                               </div>
                           </div>
                       </div>
