@@ -71,9 +71,6 @@
                                 <div class="text">
                                     <h4 class="mb0 text-white">Davie Tembo</h4>
                                     <p class="mb30 team-meta">- Finance Director</p>
-                                      <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum
-                                            nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus 
-                                            quaroin tincidunt neque malesuda vulputate lecton pretiume.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -113,9 +110,6 @@
                         
                                     <h4 class="text-white mb0">Reuben Ndindi</h4>
                                     <p class="mb30 team-meta">- Director Informatics</p>
-                                     <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern
-                                      rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt 
-                                      neque malesuda vulputate lecton pretiume.</p>-->
                                 </div>
                             </div>
                         </div>
@@ -136,9 +130,6 @@
                                 <div class="text">
                                     <h4 class="text-white mb0">Soyapi Mumba</h4>
                                     <p class=" mb30 team-meta">- Director</p>
-                                    <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum
-                                        nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque 
-                                        malesuda vulputate lecton pretiume.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -158,9 +149,6 @@
                                 <div class="text">
                                     <h4 class="text-white mb0">Patricia Khomeni</h4>
                                     <p class=" mb30 team-meta">- Manager</p>
-                                    <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum 
-                                       nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque 
-                                       malesuda vulputate lecton pretiume.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -181,9 +169,6 @@
                       
                                   <h4 class="text-white mb0">Fidelis Suwedi</h4>
                                   <p class="mb30 team-meta">- Managerr</p>
-                                  <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum 
-                                   in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt 
-                                   neque malesuda vulputate lecton pretiume.</p> -->
                               </div>
                           </div>
                       </div>
@@ -203,9 +188,6 @@
                                 <div class="text">
                                     <h4 class="text-white mb0">Ronald Munjomo</h4>
                                     <p class="team-meta">- Manager</p>
-                                     <!--<p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern
-                                            rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin
-                                             tincidunt neque malesuda vulputate lecton pretiume.</p>-->
                                 </div>
                             </div>
                         </div>
@@ -246,9 +228,6 @@
                   
                               <h4 class="text-white mb0">Mwatha Bwanali</h4>
                               <p class="mb30 team-meta">- Manager</p>
-                              <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum 
-                               in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt 
-                               neque malesuda vulputate lecton pretiume.</p> -->
                           </div>
                       </div>
                   </div>
@@ -268,9 +247,6 @@
                             <div class="text">
                                 <h4 class="text-white mb0">Anastanzia Mbano</h4>
                                 <p class="team-meta">- Manager</p>
-                                 <!--<p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern
-                                        rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin
-                                         tincidunt neque malesuda vulputate lecton pretiume.</p>-->
                             </div>
                         </div>
                     </div>
