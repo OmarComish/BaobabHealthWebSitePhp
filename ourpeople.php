@@ -80,9 +80,9 @@
                     </div>
                 </div>
                 <!-- /.team-img -->
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                 <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"> -->
                     <!-- team-img -->
-                    <div class="team-block">
+                    <!--<div class="team-block">
                         <div class="team-img">
                             <img src="images/chimango-munthali.jpg" alt="">
                             <div class="team-content">
@@ -93,14 +93,11 @@
                                 <div class="text">
                                     <h4 class="mb0 text-white">Chimango Munthali</h4>
                                     <p class="mb30 team-meta">- Operations Director</p>
-                                    <!-- <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern 
-                                       rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin
-                                       tincidunt neque malesuda vulputate lecton pretiume.</p> -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.team-img -->
                   <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                     <!-- team-img -->
